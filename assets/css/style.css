@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "sanista_swashed";
+    src: url("../fonts/SansitaSwashed-Regular.ttf");
+}
+
+
+.bg-h-img{
+
+    background-image: url("../images/header_background.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+
+}
+.up-h-text{
+    font-family: sanista;
+    font-size: 1rem;
+    color: #E9BD8C;
+}
+.h-text{
+
+    font-family: sanista;
+    font-size: 4rem; 
+    color: #F5F5F5;
+    
+}
