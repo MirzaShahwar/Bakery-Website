@@ -1,10 +1,10 @@
-@font-face {
-    font-family: "sanista_swashed";
-    src: url("../fonts/SansitaSwashed-Regular.ttf");
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 
-.bg-h-img{
+.bg-h-img {
 
     background-image: url("../images/header_background.png");
     background-size: cover;
@@ -13,15 +13,16 @@
     align-items: center;
 
 }
-.up-h-text{
-    font-family: sanista;
+
+.up-h-text {
+    font-family: "Sansita Swashed", system-ui;
     font-size: 1rem;
     color: #E9BD8C;
 }
-.h-text{
 
-    font-family: sanista;
-    font-size: 4rem; 
+.h-text {
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 4rem;
     color: #F5F5F5;
-    
+
 }
