@@ -1,8 +1,15 @@
+:root{
+    --bs-primary: #933C24;
+}
 body {
     margin: 0px;
     padding: 0px;
 }
 
+.btn-primary{
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
 
 .bg-h-img {
 
@@ -10,19 +17,34 @@ body {
     background-size: cover;
     height: 100vh;
     background-position: center;
-    align-items: center;
-
 }
 
 .up-h-text {
-    font-family: "Sansita Swashed", system-ui;
-    font-size: 1rem;
+    font-family: "Inter";
+    font-size: 0.9rem;
     color: #E9BD8C;
+    font-weight: 500;
+
 }
 
 .h-text {
     font-family: "Sansita Swashed", system-ui;
     font-size: 4rem;
     color: #F5F5F5;
+    line-height: 1.2;
+}
+
+.h-btn-shop-learn{
+    margin-top: 4rem;
+}
+
+
+.h-learn-more{
+
+    text-decoration: none;
+    font-family: "inter";
+    color: #E9BD8C;
+    font-weight: 500;
+    
 
 }
