@@ -1,5 +1,10 @@
 :root{
     --bs-primary: #933C24;
+    --bs-secondary: #E9BD8C;
+    --bs-white-smoke:#F5F5F5;
+    --bs-font-btn-weight-600: 600;
+    --bs-font-sanista-swashed: "Sansita Swashed";
+    --bs-font-inter: "Inter";
 }
 body {
     margin: 0px;
@@ -9,9 +14,17 @@ body {
 .btn-primary{
     background-color: var(--bs-primary) !important;
     border-color: var(--bs-primary) !important;
+    font-weight: var(--bs-font-btn-weight-600);
 }
 
-.bg-h-img {
+.navbar-top{
+    padding-left: 2.7rem;
+    height: 23vh;
+    max-width: 100%;
+}
+
+
+.bg-heading-img {
 
     background-image: url("../images/header_background.png");
     background-size: cover;
@@ -19,31 +32,31 @@ body {
     background-position: center;
 }
 
-.up-h-text {
-    font-family: "Inter";
+.up-heading-text {
+    font-family: var(--bs-font-inter);
     font-size: 0.9rem;
-    color: #E9BD8C;
+    color: var(--bs-secondary);
     font-weight: 500;
 
 }
 
-.h-text {
-    font-family: "Sansita Swashed", system-ui;
+.heading-text {
+    font-family: var(--bs-font-sanista-swashed);
     font-size: 4rem;
-    color: #F5F5F5;
+    color: var(--bs-white-smoke);
     line-height: 1.2;
 }
 
-.h-btn-shop-learn{
-    margin-top: 4rem;
+.heading-btn-shop-learn{
+    margin-top: 6rem;
 }
 
 
-.h-learn-more{
+.heading-learn-more{
 
     text-decoration: none;
     font-family: "inter";
-    color: #E9BD8C;
+    color: var(--bs-secondary);
     font-weight: 500;
     
 
