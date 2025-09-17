@@ -1,7 +1,9 @@
 :root{
     --bs-primary: #933C24;
+    --bs-primary-hover: #70240f;
     --bs-secondary: #E9BD8C;
     --bs-white-smoke:#F5F5F5;
+    --bs-light-black: #111111;
     --bs-font-btn-weight-600: 600;
     --bs-font-sanista-swashed: "Sansita Swashed";
     --bs-font-inter: "Inter";
@@ -14,14 +16,14 @@ body {
 .btn-primary{
     background-color: var(--bs-primary) !important;
     border-color: var(--bs-primary) !important;
-    font-weight: var(--bs-font-btn-weight-600);
+    font-weight: var(--bs-font-btn-weight-600) !important;
+}
+.btn-primary:hover{
+    background-color: var(--bs-primary-hover) !important;
+    border-color: var(--bs-primary-hover) !important;
+
 }
 
-.navbar-top{
-    padding-left: 2.7rem;
-    height: 23vh;
-    max-width: 100%;
-}
 
 
 .bg-heading-img {
@@ -42,13 +44,13 @@ body {
 
 .heading-text {
     font-family: var(--bs-font-sanista-swashed);
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--bs-white-smoke);
     line-height: 1.2;
 }
 
 .heading-btn-shop-learn{
-    margin-top: 6rem;
+    margin-top: 4.5rem;
 }
 
 
@@ -57,7 +59,40 @@ body {
     text-decoration: none;
     font-family: "inter";
     color: var(--bs-secondary);
-    font-weight: 500;
+    font-weight: 400;
     
+}
 
+.top-product-heading{
+
+    font-size: 3rem;
+    font-family: "Sansita Swashed";
+    color: var(--bs-light-black);
+    font-weight: 600;
+}
+.top-product-card{
+    background-image: url("../images/top_product_bg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.top-product-card-img{
+
+    width: 16vw;
+    /* height: 40vh; */
+
+}
+.top-product-card-rate{
+    font-family: "Inter";
+    font-weight: 600;
+    color: white;
+    font-size: 1.3rem;
+}
+.top-product-card-text{
+
+    font-family: "Inter";
+    font-weight: 400;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.2;
 }
