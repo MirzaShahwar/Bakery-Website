@@ -4,6 +4,10 @@
     --bs-secondary: #E9BD8C;
     --bs-white-smoke:#F5F5F5;
     --bs-light-black: #111111;
+    --bs-black: #000000;
+    --bs-grey: #5D5D5D;
+    --bs-dark-grey: #737373;
+    --bs-light-grey: #B9B9B9;
     --bs-font-btn-weight-600: 600;
     --bs-font-sanista-swashed: "Sansita Swashed";
     --bs-font-inter: "Inter";
@@ -78,21 +82,159 @@ body {
 }
 .top-product-card-img{
 
-    width: 16vw;
-    /* height: 40vh; */
-
+    width: 18vw;
+    height: 38vh;
+    
+}
+.tp-info-icon{
+    width: 4vw;
 }
 .top-product-card-rate{
     font-family: "Inter";
     font-weight: 600;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .top-product-card-text{
 
     font-family: "Inter";
     font-weight: 400;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.2;
+}
+
+.off-bg-img{
+    background-image: url("../images/off_bg_img.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.off-text-heding{
+
+    font-family: "Sansita Swashed";
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: var(--bs-primary);
+}
+
+.off-text{
+
+    font-family: "Inter";
+    font-size: 1rem;
+    color: var(--bs-grey);
+
+}
+
+.inear-navbar a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--bs-grey);    
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.inear-navbar a:hover{
+
+    color: var(--bs-primary);    
+
+}
+
+.aboutus-bg-img{
+
+    background-image: url("../images/aboutus_bg_img.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.aboutus-text-heding{
+    font-family: "Sansita Swashed";
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: white;
+}
+.aboutus-text{
+
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--bs-light-grey);
+
+}
+
+.ft-card-text{
+    color: var(--bs-black);
+    font-family: "inter";
+    font-weight: 600;
+   
+}
+.footer-bg-img{
+
+    background-image: url("../images/footer_bg_img.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.follow-text{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--bs-secondary);
+    padding-right: 2rem;
+}
+.foot_follow_img img{
+    width: 4.5vw;
+    padding: 10px;
+
+}
+
+.footer-line span{
+
+    background-color: var(--bs-secondary);
+    height: 1px;
+    opacity: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ft-add-col{
+    margin-left: 20px;
+}
+.ft-aboutus{
+    font-family: "Inter";
+    font-weight: 600;
+    color: var(--bs-secondary);
+    font-size: 1.1rem;
+}
+.ft-phone{
+    font-family: "Inter";
+    font-weight: 500;
+    color: var(--bs-white-smoke);
+    font-size: 0.9rem;
+}
+.ft-email-add{
+
+    font-family: "Inter";
+    font-weight: 400;
+    color: var(--bs-white-smoke);
+    font-size: 0.9rem;
+
+}
+.ft-resent-date{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--bs-secondary);
+}
+.ft-resent-text{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--bs-white-smoke);
+}
+.footer-cc{
+    font-family: "Inter";
+    font-weight: 500;
+    color: var(--bs-dark-grey);
+    font-size: 1.1rem;
 }
