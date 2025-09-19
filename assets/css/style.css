@@ -48,7 +48,7 @@ body {
 
 .heading-text {
     font-family: var(--bs-font-sanista-swashed);
-    font-size: 5rem;
+    font-size: 6rem;
     color: var(--bs-white-smoke);
     line-height: 1.2;
 }
@@ -82,8 +82,8 @@ body {
 }
 .top-product-card-img{
 
-    width: 18vw;
-    height: 38vh;
+    /* width: 18vw; */
+    height: 40vh;
     
 }
 .tp-info-icon{
@@ -103,6 +103,12 @@ body {
     font-size: 1.2rem;
     line-height: 1.2;
 }
+
+.explore-section .col-4 img{
+    width: 100% !important;
+    
+}
+
 
 .off-bg-img{
     background-image: url("../images/off_bg_img.png");
@@ -130,8 +136,8 @@ body {
 .inear-navbar a{
     text-decoration: none;
     list-style-type: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
     color: var(--bs-grey);    
     font-family: "Poppins";
     font-weight: 600;
